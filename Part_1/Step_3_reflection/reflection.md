@@ -47,3 +47,25 @@ This estimation approach allows the Smoke Impact Score to reflect both the inten
 ### Insights from the Visualization
 
 The scatter plot reveals a somewhat dispersed relationship between the Smoke Impact Score and AQI, without a clear linear correlation. This variability could be due to additional factors influencing AQI beyond just the smoke impact of individual fires, such as weather conditions, topography, and local air quality regulations. The visualization suggests that while a higher Smoke Impact Score generally aligns with increased AQI, the relationship is not strictly proportional.
+
+# Reflection
+
+During this assignment, one of the key learning experiences was developing a robust method for calculating the Smoke Impact Score to effectively correlate wildfire impact with Air Quality Index (AQI) values. Initially, I anticipated a straightforward relationship between fire size, distance, and AQI. However, as I delved into research and experimented with the model, I realized that AQI is influenced by a range of complex factors, including not just fire characteristics but also external elements like wind, topography, and regional air quality policies. This insight significantly shaped how I approached the problem and underscored the importance of developing a nuanced model.
+
+## Research and Development of the Smoke Impact Score
+
+A major part of my research focused on identifying factors that could improve the accuracy of the Smoke Impact Score. While distance from the fire to the affected city and fire size were my primary considerations, I found that other variables, such as wind direction and speed, play a critical role in smoke dispersion and could significantly influence AQI readings. Although I couldn’t incorporate wind data directly into this project due to data limitations, this finding helped me appreciate the complexity of smoke impact assessment and the limitations of a purely distance-based approach.
+
+I also reused a geodesic distance calculation method to measure distances between wildfires and target locations. This technique, which calculates the shortest path on the Earth's surface, provided a more accurate distance metric than simple Euclidean calculations, particularly over larger distances. This method was instrumental in the model, as accurate distance measurements are essential to calculating a meaningful Smoke Impact Score.
+
+## Insights from Collaboration and Data Attribution
+
+Collaboration in this project provided an opportunity to explore different perspectives and exchange ideas on improving the model. Discussions with peers led to insightful suggestions about threshold values for fire size and distance penalties, which influenced the final model structure. A peer also suggested applying cube-root normalization to fire size, an approach that mitigates the impact of extreme values and results in a more balanced scoring system. This idea proved invaluable in producing a Smoke Impact Score that aligns better with observed AQI patterns.
+
+In terms of data sources, I leveraged publicly available AQI data and researched my city’s nearby counties to obtain accurate AQI readings. This localized data provided a reliable basis for validation, helping me observe that, while Smoke Impact Score has a general relationship with AQI, the correlation was not as strong as expected. This discrepancy prompted me to investigate how other environmental factors influence AQI, which further broadened my understanding of the problem.
+
+## Reflections on Findings and Next Steps
+
+One unexpected outcome was realizing the lack of a significant correlation between the Smoke Impact Score and AQI. This prompted me to think critically about other influential factors that were not captured in this model, such as wind conditions and atmospheric pressure. This insight was valuable because it demonstrated the limitations of simplified models and highlighted the need for multi-variable analyses in real-world environmental studies. As a next step, I would like to explore integrating wind data, possibly through available meteorological APIs, to enhance the accuracy of the Smoke Impact Score.
+
+Overall, this collaborative project taught me the value of incorporating multiple perspectives and reusing established techniques, like geodesic calculations, to tackle complex environmental data problems. I gained a deeper understanding of the limitations of single-variable models and developed a strong foundation for future studies on wildfire smoke impact and air quality.
