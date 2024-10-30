@@ -1,5 +1,6 @@
-**Visualization 1**
-**Explanation of the Wildfire Distances from Glendale Visualization**
+# Visualization 1
+
+## Explanation of the Wildfire Distances from Glendale Visualization
 
 This histogram visualizes the distribution of wildfires based on their distance from the city of Glendale, Arizona. The x-axis represents distance in miles from Glendale, ranging from 0 to approximately 1800 miles. The y-axis shows the number of fires observed at each distance interval. Each bar represents a 50-mile distance range, with the height of the bar indicating the number of fires that occurred within that specific distance range from Glendale.
 
@@ -11,8 +12,9 @@ The figure highlights that most wildfires occur within roughly 250 to 1000 miles
 
 This visualization is designed to provide insights into the spatial distribution of wildfires concerning Glendale. It can help analysts or decision-makers understand how wildfire activity varies with distance from a specific urban area, potentially guiding resource allocation or risk assessment efforts based on wildfire proximity.
 
-**Visualization 2**
-**Explanation of the Total Acres Burned by Year Visualization**
+# Visualization 2
+
+## Explanation of the Total Acres Burned by Year Visualization
 
 This line chart displays the trend of total acres burned in wildfires in the United States each year, spanning from approximately 1960 to 2020. The x-axis represents the year, with labels placed at intervals of roughly a decade, while the y-axis represents the total acres burned, formatted with commas for thousands to enhance readability. The y-axis ranges from 0 to just over 4,000,000 acres, showing a wide variance in wildfire impact over time.
 
@@ -22,8 +24,9 @@ The data demonstrates a clear upward trend over the decades, with a relatively l
 
 This visualization suggests that wildfires have become more frequent and severe over the years, likely due to factors such as climate change, land management practices, and increased temperatures. It provides a straightforward look at how wildfire impact has evolved, enabling researchers, policymakers, and the general public to recognize the growing scale of wildfire threats and the need for proactive measures in fire management and climate adaptation.
 
-**Visualization 3**
-**Explanation of the Fire Smoke Estimates vs AQI (PM 2.5) Visualization**
+# Visualization 3
+
+## Explanation of the Fire Smoke Estimates vs AQI (PM 2.5) Visualization
 
 This scatter plot illustrates the relationship between the "Smoke Impact Score" and the Air Quality Index (AQI) for particulate matter (PM 2.5), a common measure of air pollution, especially during wildfire events. The x-axis represents the Smoke Impact Score, which ranges from 30 to 100 and quantifies the potential impact of wildfire smoke on air quality. The y-axis represents the AQI values, which range from 6 to 10 in this plot, where higher values indicate worse air quality conditions.
 
