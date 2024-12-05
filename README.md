@@ -89,16 +89,6 @@ The presentation component of the project, containing final deliverables and doc
 - `LICENSE` - Project license information
 - `README.md` - This file, providing comprehensive project documentation
 
-## Timeline and Deliverables
-
-The project follows a structured timeline with key deliverables:
-
-1. Data Collection and Preparation (Week 1)
-2. Data Analysis (Week 2)
-3. Interpretation and Model Refinement (Week 3)
-4. Documentation and Presentation Preparation (Week 4)
-5. Final Presentation and Repository Organization (Week 5)
-
 ## Data Privacy and Limitations
 
 All health data analysis complies with HIPAA regulations, using only publicly available, de-identified data. The project acknowledges limitations in data accessibility and model comprehensiveness, particularly regarding factors such as wind patterns that are not included in the current Smoke Impact Score model.
