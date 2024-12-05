@@ -80,6 +80,7 @@ The presentation component of the project, containing final deliverables and doc
 
 ### Other Files
 
+- **Final Report**: The comprehensive project report is located in `Part_3/Final Report.docx`.
 - `.env` - **Environment file storing sensitive information such as the AQI API key and email**. To access AQI data, create a `.env` file in the root directory and add the following:
   ```plaintext
   email=your_email@example.com
