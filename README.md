@@ -8,8 +8,6 @@ This project investigates the impact of wildfires on air quality, specifically P
 
 The main folder for Part 1 of the project, containing all data, code, and output results organized by step.
 
-### Folders and Files
-
 #### data/
 
 This folder contains raw and processed data files related to wildfires and their attributes. **Note: The `data/` folder is included in `.gitignore` to avoid committing large datasets to version control.**
@@ -36,13 +34,6 @@ Contains notebooks and initial results for data preprocessing, cleaning, and exp
   - `glendale_AQI.csv` - CSV file containing AQI data for Glendale.
   - `wildfire_impact_glendale_1961_2021.csv` - Dataset summarizing the calculated Smoke Impact Score for wildfires near Glendale from 1961 to 2021.
 
-#### wildfire_analysis_results/
-
-Stores processed data and visual outputs generated from the analysis notebooks.
-
-- `wildfire_analysis_glendale.png` - Visualization showing the distribution of wildfire distances from Glendale.
-- `wildfire_impact_glendale_1961_2021.csv` - CSV file containing final results of the Smoke Impact Score calculations, structured by year.
-
 #### Step_2_visualizations/
 
 Contains notebooks and outputs for creating visualizations that represent the relationship between wildfire activity and AQI levels.
@@ -55,6 +46,38 @@ Includes a reflection document detailing insights, challenges, and methodologies
 
 - `reflection.md` - Reflective report on the collaborative process, including specific techniques reused, challenges encountered, and insights gained through the research.
 
+### Part_2
+
+Part 2 extends the analysis to focus on healthcare impacts, specifically examining the relationship between the Smoke Impact Score and respiratory health outcomes in Glendale, Arizona.
+
+#### Data Files
+
+- `Aastma_data_merged.csv` - Dataset containing merged asthma-related health data for analysis
+- `wildfire-trends.jpg.png` - Visualization of wildfire trends and their correlation with health outcomes
+- `wildfire-trends.tsx` - TypeScript component for interactive visualization of wildfire trends
+
+#### Healthcare Impact Analysis
+
+The extension analyzes hospital admission records for respiratory conditions in relation to wildfire smoke exposure, focusing on:
+
+- Trends in hospital admissions during high Smoke Impact Score periods
+- Effects on vulnerable populations
+- Public health preparedness recommendations
+
+Additional health data is sourced from:
+
+- Arizona Department of Health Services
+- CDC's National Environmental Public Health Tracking Network [CDC Tracking Network](https://ephtracking.cdc.gov/DataExplorer/)
+
+### Part_3
+
+The presentation component of the project, containing final deliverables and documentation.
+
+#### Files
+
+- `Presentation.pptx` - Final presentation slides showcasing project findings
+- Updated documentation and reflection on the entire project lifecycle
+
 ### Other Files
 
 - `.env` - **Environment file storing sensitive information such as the AQI API key and email**. To access AQI data, create a `.env` file in the root directory and add the following:
@@ -62,3 +85,20 @@ Includes a reflection document detailing insights, challenges, and methodologies
   email=your_email@example.com
   api_key=your_aqi_api_key
   ```
+- `.gitignore` - Specifies which files Git should ignore
+- `LICENSE` - Project license information
+- `README.md` - This file, providing comprehensive project documentation
+
+## Timeline and Deliverables
+
+The project follows a structured timeline with key deliverables:
+
+1. Data Collection and Preparation (Week 1)
+2. Data Analysis (Week 2)
+3. Interpretation and Model Refinement (Week 3)
+4. Documentation and Presentation Preparation (Week 4)
+5. Final Presentation and Repository Organization (Week 5)
+
+## Data Privacy and Limitations
+
+All health data analysis complies with HIPAA regulations, using only publicly available, de-identified data. The project acknowledges limitations in data accessibility and model comprehensiveness, particularly regarding factors such as wind patterns that are not included in the current Smoke Impact Score model.
